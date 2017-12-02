@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  angular-todos:
+    container_name: angular-todos-frontend
+    build: docker/frontend
+    ports:
+      - 4200:4200
+    volumes:
+      - ./:/var/www/angular-todos
+    tty: true
+    networks:
+      - angular-todos-network
+
+networks:
+ angular-todos-network:
