@@ -1,3 +1,19 @@
-<p>
-  todo works!
-</p>
+
+<div class='center'>
+    
+    <form class="form">
+      <mat-form-field class="inputToDo">
+        <input matInput='text' placeholder="new todo" value="">
+      </mat-form-field>
+      <button mat-button>add</button>
+      <todo-item></todo-item>
+    </form>
+
+    <div class="chooseButton">
+      <mat-chip-list>
+        <mat-chip color="primary" selected="true">Все</mat-chip>
+        <mat-chip color="primary" selected="true">Активные</mat-chip>
+        <mat-chip color="primary" selected="true">Выполненные</mat-chip>
+      </mat-chip-list>
+    </div>
+  </div>

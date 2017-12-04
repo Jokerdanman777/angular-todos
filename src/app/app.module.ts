@@ -7,6 +7,9 @@ import { ItemComponent } from './todo/item/item.component';
 import { FullItemComponent } from './todo/item/full-item/full-item.component';
 import { MatButtonModule, MatCheckboxModule, MatInputModule } from '@angular/material';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     NoopAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule,
+    MatToolbarModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

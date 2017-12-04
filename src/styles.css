@@ -1,31 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
-body {
-  margin: 0;
-  background: #a0a0a0;
+body { 
+    margin: 0; 
+    background: #e0e0e0; 
 }
-
-.center {
-  width:  500px;
-  margin: 0 auto;
-}
-
-button {
-  color: white;
-}
-.form {
-  min-width: 150px;
-  max-width: 500px;
-  width: 100%;
-}
-
-.inputToDo {
-  color: white; 
-  width: 80%;
-}
-
-.item {
-  border-radius: 8px;
-  border: 4px black; 
-  width: 100%;
+img {
+    width: 20px;
 }

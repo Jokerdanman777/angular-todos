@@ -1,25 +1,9 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-  {{title}}!
-  </h1>
-</div>
-
-<div class='center'>
-  <form class="form">
-    <mat-form-field class="inputToDo">
-      <input matInput='text' placeholder="new todo" value="">
-    </mat-form-field>
-    <button mat-button>add</button>
-  </form>
-  <div class="item">
-    <mat-checkbox>Check me!</mat-checkbox>
-  </div>
-  <div class="item">
-    <mat-checkbox>Check me!</mat-checkbox>
-  </div>
-  <div class="item">
-    <mat-checkbox>Check me!</mat-checkbox>
-  </div>
-</div>
-
+<mat-toolbar color="primary">
+    <img [attr.src]="logo">
+    <span>
+      <h1>{{title}}!</h1>
+    </span>
+</mat-toolbar>
+  
+<todo-todo></todo-todo>

@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'make it all';
+  public logo: string =
+  'https://material.angularjs.org/latest/img/icons/angular-logo.svg';
+
 }
